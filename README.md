@@ -18,4 +18,3 @@ All the following files are programme written during the building of the counter
 | `script.js` | the external javascript file |
 | `style.css` | the linked stylesheet |
 | `README.md` | the markdown file added to the root of the repository |
-# weatherApp
