@@ -1,3 +1,31 @@
+@font-face {
+    font-family: 'zantrokeregular';
+    src: url('../fonta/zantroke-webfont.woff2') format('woff2'),
+         url('../fonta/zantroke-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'kaushan_scriptregular';
+    src: url('../fonts/kaushanscript-regular-webfont.woff2') format('woff2'),
+         url('../fonts/kaushanscript-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'chunkfiveregular';
+    src: url('../fonts/chunkfive-regular-webfont.woff2') format('woff2'),
+         url('../fonts/chunkfive-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
 body {
     margin: 0;
     display: flex;
@@ -9,6 +37,17 @@ body {
     background: #222;
     background-image: url('https://source.unsplash.com/1600x900/?landscape');
     background-size: cover;
+}
+
+h1 {
+    font-family: 'chunkfiveregular';
+}
+h2 {
+    font-family: 'zantrokeregular';
+}
+
+div {
+    font-family: 'kaushan_scriptregular';
 }
 
 .card {
